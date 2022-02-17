@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualBasic;
+using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 
 using System;
@@ -45,6 +45,8 @@ namespace MapCreator
 
         public mainMenu()
         {
+            CheckForIllegalCrossThreadCalls = false;
+
             MaximizeBox = false;
             MinimizeBox = false;
 
@@ -542,23 +544,23 @@ namespace MapCreator
                     if (String.Compare(file.Name, filename1) == 0)
                     {
                         terrainBitmapFound = true;
-                        mainMenu_groupBox01_createYourWorld_panel02_workBench_groupBox01_syncYourAltitudeBitmap_textBox02_terrainBitmap.Text = "Terrain.bmp Found!";
+                        mainMenu_groupBox01_createYourWorld_panel02_workBench_groupBox01_syncYourAltitudeBitmap_textBox02_terrainBitmap.Text = "Terrain.bmp";
                     }
                     else if (String.Compare(file.Name, filename2) == 0)
                     {
                         altitudeBitmapFound = true;
-                        mainMenu_groupBox01_createYourWorld_panel02_workBench_groupBox01_syncYourAltitudeBitmap_textBox03_altitudeBitmap.Text = "Altitude.bmp Found!";
+                        mainMenu_groupBox01_createYourWorld_panel02_workBench_groupBox01_syncYourAltitudeBitmap_textBox03_altitudeBitmap.Text = "Altitude.bmp";
                     }
                 }
 
                 if (!terrainBitmapFound)
                 {
                     Console.WriteLine("File does not exist in the specified directory!");
-                    mainMenu_groupBox01_createYourWorld_panel02_workBench_groupBox01_syncYourAltitudeBitmap_textBox02_terrainBitmap.Text = "Terrain.bmp Missing!";
+                    mainMenu_groupBox01_createYourWorld_panel02_workBench_groupBox01_syncYourAltitudeBitmap_textBox02_terrainBitmap.Text = "Terrain.bmp";
                 }
                 else if (!altitudeBitmapFound)
                 {
-                    mainMenu_groupBox01_createYourWorld_panel02_workBench_groupBox01_syncYourAltitudeBitmap_textBox03_altitudeBitmap.Text = "Altitude.bmp Missing!";
+                    mainMenu_groupBox01_createYourWorld_panel02_workBench_groupBox01_syncYourAltitudeBitmap_textBox03_altitudeBitmap.Text = "Altitude.bmp";
                 }
             }
         }
