@@ -1,0 +1,15 @@
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.csproj.SuggestedBindingRedirects.cache
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.mainMenu.resources
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.Properties.Resources.resources
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.titleScreen.resources
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.csproj.GenerateResource.cache
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.csproj.CoreCompileInputs.cache
+D:\MapCreator\CurrentProject\MapCreator\bin\Debug\MapCreator.exe.config
+D:\MapCreator\CurrentProject\MapCreator\bin\Debug\MapCreator.exe
+D:\MapCreator\CurrentProject\MapCreator\bin\Debug\MapCreator.pdb
+D:\MapCreator\CurrentProject\MapCreator\bin\Debug\RenderFacet.dll
+D:\MapCreator\CurrentProject\MapCreator\bin\Debug\RenderFacet.pdb
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.csproj.AssemblyReference.cache
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.csproj.CopyComplete
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.exe
+D:\MapCreator\CurrentProject\MapCreator\obj\Debug\MapCreator.pdb

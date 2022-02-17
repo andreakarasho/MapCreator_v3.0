@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "91a35d49-b337-4148-80bb-ca27607c7987": {
+      "ProjectGuid": "91a35d49-b337-4148-80bb-ca27607c7987",
+      "DisplayName": "MapCreator",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "54892c8e-001b-45ae-ae25-0a4dfb5044ae": {
+      "ProjectGuid": "54892c8e-001b-45ae-ae25-0a4dfb5044ae",
+      "DisplayName": "MapEngines",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
